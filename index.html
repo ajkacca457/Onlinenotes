@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notes app</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/5b1eeceadd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<button type="button" class="addnote"><i class="fas fa-plus"></i> Add New Note</button>
+
+<div class="notes-container">
+
+  <div class="notes">
+<div class="header">
+  <div class="title-btn t-color">
+    <h4 class="title">General Note</h4>
+    <div class="btns">
+        <i class="fas fa-pen-square edit"></i>
+        <i class="fas fa-trash margin-left delete"></i>
+  </div>
+  </div>
+</div>
+    <div class="content hidden"></div>
+      <textarea name="name" class="tarea"></textarea>
+  </div>
+
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.1.1/marked.min.js"></script>
+<script type="text/javascript" src="notes.js"></script>
+</body>
+</html>
